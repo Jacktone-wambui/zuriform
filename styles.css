@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 70px;
+    margin-left: 350px;
+    width: 700px;
+    height: 500px;
+    border: solid gold;
+    border-radius: 10px;
+    background-color: grey;
+}
+.form{
+    justify-content: center;
+    align-items: center;
+    margin-left:170px;
+    margin-top: 50px;
+    padding: 5px;
+    line-height: 40px;
+}
+.b{
+    width: 200px;
+    height: 30px;
+}
+input::placeholder{
+    color: blue;
+}
+h1{
+   margin-left: 90px;
+   color: aliceblue;
+}
+button{
+    width: 150px;
+    height: 40px;
+    color: blue;
+    background-color: yellow;
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 150px;
+    border-radius: 10px;
+    border: solid gold;;
+
+}

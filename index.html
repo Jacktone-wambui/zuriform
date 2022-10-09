@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ZuriForm</title>
+</head>
+<body>
+    <div class="container">
+        <form action="user_data.php" method="post" class="form">
+            <h1><u>ZuriForm</u></h1>
+            <label>Name :
+            <input type="text" placeholder="Enter name" name="name" class="b" required>
+        </label><br>
+        <label>Email :
+            <input type="email" placeholder="Enter email" name="email" class="b" required>
+        </label><br>
+        <label>Date of birth :
+            <input type="date" placeholder="Enter DOB" name="dob" class="b" required>
+        </label><br>
+        <label>Gender :<br>
+            <input type="radio"  value="male" name="gender" required>
+            <label for="gender" >Male</label>
+            <input type="radio" value="female" name="gender" required>
+            <label for="gender">Female</label>
+        </label><br>
+        <label>Country :
+            <input type="text" placeholder="Enter country" name="country" class="b" required>
+        </label><br>
+        <button type="submit" name="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
